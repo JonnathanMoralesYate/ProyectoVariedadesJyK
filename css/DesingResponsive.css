@@ -1,0 +1,28 @@
+main{
+    display: grid;
+    grid-template-areas:
+    "head head head"
+    "nav nav nav"
+    "content side side"
+    "section section section"
+    "foot foot foot";
+    grid-template-rows: auto;
+}
+header{grid-area: head;
+    background-color: black;
+}
+nav{grid-area: nav;
+    background: blue;
+}
+article {grid-area: content;
+    background-color: aqua; 
+}
+aside {grid-area: side; 
+    background-color: blueviolet;
+}
+section{grid-area: section;
+    background-color: beige;
+}
+footer {grid-area: foot; 
+    background-color: brown;
+}

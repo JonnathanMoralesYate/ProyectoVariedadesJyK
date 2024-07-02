@@ -1,0 +1,78 @@
+header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img{
+    padding: 1px 1px 1px 1px; /*Alineacion imaguen del logo*/
+}
+.navbar {
+    background-color: rgb(6, 39, 13);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start; /*Alineacion*/
+    align-items: center;
+    padding: 0 1px;
+}
+.navbar a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 15px; /*Espacio entre etiquetas de inicio de servicios ....Ubicacion*/
+    text-decoration: double;
+}
+.navbar a:hover {
+    background-color: #3dd392;
+    color: white;
+}
+.navbar a.active:hover {
+    background-color: #3dd392;
+    color: white;
+}
+.navbar .left, .navbar .right {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container input[type=text] {
+    padding: 6px;
+    margin: 10px 10px;/*Espacio entre etiquetas de ubicacion barra buscar */
+    margin-right: 10px;
+    font-size: 17px;
+    border: none;
+    background: #f1f1f1;
+}
+.search-container button {
+    padding: 10px 16px;
+    margin: 8px 0;
+    margin-right: 220px;/*Separacion button login del button buscar*/
+    background-color: #df811c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background-color: #3f0fc3;
+    color: white;
+}
+.login-container {
+    display: flex;
+    align-items: center;
+}
+.login-container button {
+    padding: 10px 16px;
+    margin: 8px 0;
+    margin-right: 10px;
+    background-color: #4507aa;/*color de resalto*/
+    color: white; /*color de letra del button*/
+    border: none;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: #cb1222;/*color al pasar el puntero*/
+    color: white;
+}
