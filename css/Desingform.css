@@ -1,0 +1,35 @@
+.main_form{
+    display: block;
+    grid-template-areas:
+    "head head head"
+    "nav nav nav"
+    "section section section";
+    grid-template-rows: auto;
+}
+header{grid-area: head;
+    background-color: aqua;
+}
+nav{grid-area: nav;
+    background: darkturquoise;
+}
+section{grid-area: section;
+    background-color: beige;
+}
+.estilo_jyk{
+    background-color: rgb(25, 210, 65);
+    overflow: hidden;
+    align-items: center;
+
+}
+.animacion_nombre{
+    font-family: 'Arial', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #a5ecbc; /* Color letra  */
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000; /* Sombra negra */
+    margin-top: 50px;
+    line-height: 1;
+    letter-spacing: 4;
+    font-style: italic;
+}
