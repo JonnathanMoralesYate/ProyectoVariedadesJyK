@@ -64,6 +64,7 @@ img{
     align-items: center;
 }
 .login-container button {
+
     padding: 10px 16px;
     margin: 8px 0;
     margin-right: 10px;
@@ -75,4 +76,5 @@ img{
 .login-container button:hover {
     background-color: #cb1222;/*color al pasar el puntero*/
     color: white;
+
 }
