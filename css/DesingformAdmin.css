@@ -1,0 +1,8 @@
+.menu_admin{
+    background-color: rgb(25, 210, 65);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start; /*Alineacion*/
+    align-items: center;
+    padding: 0 1px;
+}
