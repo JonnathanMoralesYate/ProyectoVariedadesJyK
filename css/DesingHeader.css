@@ -22,11 +22,11 @@ img{
     text-decoration: double;
 }
 .navbar a:hover {
-    background-color: #3dd392;
+    background-color:#cb1222; /*color igual 3333 */
     color: white;
 }
 .navbar a.active:hover {
-    background-color: #3dd392;
+    background-color: #158d79;
     color: white;
 }
 .navbar .left, .navbar .right {
@@ -74,7 +74,7 @@ img{
     cursor: pointer;
 }
 .login-container button:hover {
-    background-color: #cb1222;/*color al pasar el puntero*/
+    background-color: #cb1222;/*color al pasar el puntero 3333*/
     color: white;
 
 }

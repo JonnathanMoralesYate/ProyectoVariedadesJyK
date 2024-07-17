@@ -9,7 +9,7 @@
 header{grid-area: head;
     background-color: aqua;
 }
-nav{grid-area: nav;
+aside{grid-area: aside;
     background: darkturquoise;
 }
 section{grid-area: section;
@@ -31,4 +31,17 @@ section{grid-area: section;
     line-height: 1;
     letter-spacing: 4;
     font-style: italic;
+}
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #a5ecbc; /* Color letra  */
+    text-align: center;
+    text-shadow: 4px 4px 4px #000000; /* Sombra negra */
+    margin-top: auto;
+    line-height: 1;
+    letter-spacing: 4;
+    font-style: italic;
+
 }

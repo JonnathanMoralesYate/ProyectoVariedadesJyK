@@ -9,7 +9,7 @@ main{
     grid-template-rows: auto;
 }
 header{grid-area: head;
-    background-color: black;
+    background-color: red;
 }
 nav{grid-area: nav;
     background: blue;
