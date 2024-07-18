@@ -6,5 +6,21 @@ input {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px; /* fjndndndn*/
+    margin-top: 10px;
 }
-form{max-width: 500px; margin: 0 auto;}
+form{max-width: 500px; margin: 0 auto;
+}
+label{
+    color: white;
+}
+.menu_button {
+    background-color: #f0f8ff;/*color del button*/
+    color: black; /*color de letra del button*/
+}
+.menu_button:hover {
+    background-color: #014576;/*color al pasar el puntero*/
+    color: white;
+}
+.modulo_dates {
+    padding: 10px 10px 50px 10px;
+}

@@ -4,24 +4,24 @@ header {
     padding: 0;
 }
 .barra_emplea {
-    background-color: rgb(98, 238, 129);
+    background-color: aquamarine;
     overflow: hidden;
     display: flex;
+    gap: 300px;
     justify-content: flex-start; /*Alineacion*/
     align-items: center;
     padding: 15px 15px 15px 15px;/*tamaño de la caja del resalto de inicio a reporte*/
 }
 .barra_emplea a{
-    display: block;
     color: #100101; /*Color de la letra del Inicio a reporte de login*/
     text-align: center;
     padding: 30px 30px; /*Espacio entre etiquetas de inicio a ....reportes*/
     text-decoration: double;
 }
-.barra_emplea a:hover {
+/*.barra_emplea a:hover {
     background-color: #e11044;
     color: white;
-}
+}*/
 .barra_emplea a.menu_activeb:hover {
     background-color: #e01d61;/*clolor al pasar cursor por inicio a reportes*/
     color: white; /*clolor de la letra al pasar cursor por inicio a reportes*/
@@ -32,9 +32,8 @@ header {
     align-items: center;
 }
 .login_out button {
-    padding: 18px 18px;/*Alto y ancho de caja de login out*/
-    margin: 10px 0; /*Altura de caja contenedora de nav*/
-    margin-right: 300px;/*Separacion button login del button reportes*/
+    padding: 10px 18px;/*Alto y ancho de caja de login out*/
+    margin: 15px 0; /*Altura de caja contenedora de nav*/
     background-color: #df811c; /*Color button de login*/
     color: white; /*Color de la letra del button de login*/
     border: none;

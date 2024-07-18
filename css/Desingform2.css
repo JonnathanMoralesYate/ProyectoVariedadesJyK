@@ -4,44 +4,44 @@
     "head head head"
     "nav nav nav"
     "section section section";
-    grid-template-rows: auto;
+    grid-template-rows: none;
 }
 header{grid-area: head;
-    background-color: aqua; /*ddfgffr*/
+    background-color: #013d69; /**/
 }
 aside{grid-area: aside;
-    background: darkturquoise;
+    background: #013d69;
 }
 section{grid-area: section;
-    background-color: beige;
+    background-color: #013d69;
 }
 .estilo_jyk{
-    background-color: rgb(25, 210, 65);
+    background-color: #013d69;
     overflow: hidden;
     align-items: center;
 }
 .animacion_nombre{
     font-family: 'Arial', sans-serif;
-    font-size: 80px;
+    font-size: 80px;/*Tamaño*/
     font-weight: bold;
-    color: #a5ecbc; /* Color letra  */
+    color: #fffdf9; /* Color letra  */
     text-align: center;
-    text-shadow: 4px 4px 4px #000000; /* Sombra negra */
+    text-shadow: 10px 10px 10px #f0f8ff; /* Sombra negra */
     margin-top: 50px;
     line-height: 1;
     letter-spacing: 4;
     font-style: italic;
 }
-h2 {
+.modulo_sp {
     font-family: 'Arial', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
-    color: #a5ecbc; /* Color letra  */
+    color: #fffdf9; /* Color letra  */
     text-align: center;
-    text-shadow: 4px 4px 4px #000000; /* Sombra negra */
-    margin-top: auto;
+    /*text-shadow: 10px 10px 10px #f0f8ff; /* Sombra negra */
+    margin-left: auto;
+    padding:10px 10px 30px 10px;/*Separacion "modulo sdp" con codigo de producto*/
     line-height: 1;
     letter-spacing: 4;
     font-style: italic;
-
 }
