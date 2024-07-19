@@ -45,3 +45,6 @@ section{grid-area: section;
     letter-spacing: 4;
     font-style: italic;
 }
+body {
+    background-color: #013d69;
+}
