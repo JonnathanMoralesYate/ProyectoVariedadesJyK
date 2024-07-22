@@ -1,0 +1,45 @@
+/* aside{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+ul {
+    display: flex;
+    gap: 1.5rem; /*Distancia entre etiquetas inicio...Login out*/
+    align-items: center;
+    margin: auto;
+    list-style: none;
+}
+.barra > li {
+    float: left;
+}
+.barra li a {
+    background-color: #013d69;
+    color: white;/*Color letras*/
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+.barra a:hover {
+    background-color: #014576;
+    color: white;
+}
+.barra li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.barra li:hover > ul {
+    display: block;
+}
+.barra li ul li ul {
+    position: relative;
+}
+.barra li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+body{
+    background-color: #013d69;
+}

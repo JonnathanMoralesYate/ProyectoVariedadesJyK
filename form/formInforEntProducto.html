@@ -23,35 +23,34 @@
     
         <aside>
             <div class="modulo_sp">
-                Modulo Registro Cliente
+                Modulo Informe Entrada Productos
             </div>
         </aside>
 
 <section>
     <div class="modulo_dates">
         <form action="" method="">
-            <div class="menu_msdp">
+            <!-- <div class="menu_msdp">
                 <label for="text">No. Cedula:</label>
                 <input type="number" name="" id="" maxlength="13" minlength="4" placeholder="" />
-            </div>
+            </div> -->
             <div class="menu_msdp">
-                <label for="text">Nombres:</label>
-                <input type="text" name="" id="" placeholder=""  required/>
+                <label for="text">Fecha Inicial:</label>
+                <input type="date" name="" id="" placeholder=""  required/>
             </div>
+            <!-- <div class="menu_msdp">
+                <label for="text">A:</label>
+            </div> -->
             <div class="menu_msdp">
-                <label for="text">Apellidos:</label>
-                <input type="text" name="" id="" maxlength="20" minlength="8" required/>
+                <label for="text">Fecha Final:</label>
+                <input type="date" name="" id="" maxlength="1" minlength="4" required/>
             </div>
-            <div class="menu_msdp">
-                <label for="text">No. Celular:</label>
-                <input type="number" name="" id="" maxlength="1" minlength="4" required/>
-            </div>
-            <div class="menu_msdp">
-                <label for="text">Correo:</label>
-                <input type="email" x-moz-errormessage="Por favor, especifique una dirección de correo válida." name="" id="" maxlength="30" required/>
+            <div class="menu_pdf">
+                <span id="formato">Formato Pdf</span>
+                <input type="checkbox" id="" maxlength="30" placeholder="Pdf" required/>
             </div>
             <div class="menu_butt">
-                <input class="menu_button" type="submit" value="Registrar"/>
+                <input class="menu_button" type="submit" value="Generar"/>
             </div>
         </form>
     </div>

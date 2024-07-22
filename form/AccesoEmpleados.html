@@ -6,7 +6,7 @@
     <link rel="icon" href="../img/LogoPestañaAlt.ico" type="image/x-icon">
     <title>Minimarket Variedades JYK</title>
     <link rel="stylesheet" href="../css/Desingform.css">
-    <link rel="stylesheet" href="../css/DesingformEmplea.css">
+    <link rel="stylesheet" href="../css/DesingformNaveg.css">
     
     
 </head>
@@ -23,37 +23,47 @@
 
             <nav>
 
-                <div class="barra_emplea">
+                <div class="barra">
 
-                    <div class="menu_emplea">
-                        <a class="menu_activeb" href="../index.html">Inicio</a>
-                        <a class="menu_activeb" href="#services">Consultas</a>
-                        <a class="menu_activeb" href="#about">Ingreso Productos</a>
-                        <a class="menu_activeb" href="#contact">Salida Productos</a>
-                        <a class="menu_activeb" href="#ubicacion">Registro Clientes</a>
-                        <a class="menu_activeb" href="#ubicacion">Registro Proveedores</a>
-                        <a class="menu_activeb" href="#ubicacion">Reportes</a>
-                    </div>
-                        <div class="barra_emplea">
-                            <div class="login_out">
-                                <form action="/login" method="post">
-                                <button type="submit">Login Out</button>
-                                </form>
-                            </div>
-                        </div>    
+                    <ul class="menu">
+                        <li><a class="menu_activeb" href="../index.html">Inicio</a></li>
+                        <li><a class="menu_activeb" href="../form/AccesoEmpleados.html">Productos</a>
+                                <ul>
+                                    <li><a class="" href="../form/formEntradaProducto.html" target="_blank" rel="noopener">Entrada Productos</a></li>
+                                    <li><a class="" href="../form/formSalidaproducto.html" target="_blank" rel="noopener">Salida Productos</a></li>
+                                    <li><a class="" href="../form/formProducto.html" target="_blank" rel="noopener">Adicionar Producto</a></li>
+                                    <li><a class="" href="../form/formConsultProducto.html" target="_blank" rel="noopener">Consultar Producto</a></li>
+                                </ul>
+                        </li>
+                        <li><a class="menu_activeb" href="../form/AccesoEmpleados.html">Clientes</a>
+                            <ul>
+                                <li><a class="" href="../form/formCliente.html" target="_blank" rel="noopener">Registrar Cliente</a></li>
+                                <li><a class="" href="../form/formConsultCliente.html" target="_blank" rel="noopener">Consultar Cliente</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="menu_activeb" href="../form/AccesoEmpleados.html">Proveedores</a>
+                            <ul>
+                                <li><a class="" href="../form/formProveedor.html" target="_blank" rel="noopener">Registrar Proveedor</a></li>
+                                <li><a class="" href="../form/formConsultProveedor.html" target="_blank" rel="noopener">Consultar Proveedor</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="menu_activeb" href="../form/AccesoEmpleados.html">Reportes</a>
+                                <ul>
+                                    <li><a class="" href="../form/formInforSaliProducto.html" target="_blank" rel="noopener">Salida Productos</a></li>
+                                    <li><a class="" href="../form/formInforEntProducto.html" target="_blank" rel="noopener">Entrada Productos</a></li>
+                                    <li><a class="" href="../form/formInforInventario.html" target="_blank" rel="noopener">Inventario</a></li>
+                                    <li><a class="" href="../form/formInforProximoAvencer.html" target="_blank" rel="noopener">Productos Proximos a Vencer</a></li>
+                                </ul>
+                        </li>
+                        <li><a class="botton_login" href="../form/formInicio.html">Login Out</a></li>                              
+                    </ul>
                 </div>
             </nav> 
-
-                <section class="form_select">
+                <!-- <section class="form_select">
                     <div class="jh">
                         <h2>Sale formularios seleccionados</h2>
-
-
-
                     </div>
-                </section>
-
-
+                </section> -->
     </main>
 </body>
 
