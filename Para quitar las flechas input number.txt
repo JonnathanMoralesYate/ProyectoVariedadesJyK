@@ -1,0 +1,39 @@
+Para quitar las flechas de scroll en un campo de entrada de tipo number en HTML, puedes usar una combinación de CSS para ocultar los controles de incremento y decremento que se muestran por defecto en los navegadores.
+
+Aquí te muestro cómo hacerlo en CSS:
+
+CSS para Ocultar las Flechas de Scroll
+css
+Copiar código
+/* Para navegadores basados en WebKit (como Chrome y Safari) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para navegadores basados en Gecko (como Firefox) */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Para navegadores basados en Edge (como IE y Edge) */
+input[type="number"] {
+  /* En versiones antiguas de Edge, podrías necesitar ajustar el estilo aquí */
+}
+Explicación
+WebKit Browsers:
+
+::-webkit-inner-spin-button y ::-webkit-outer-spin-button son pseudoelementos utilizados por navegadores basados en WebKit (como Google Chrome y Safari) para los botones de incremento y decremento en los campos number.
+-webkit-appearance: none; elimina estos controles.
+Gecko Browsers:
+
+-moz-appearance: textfield; se utiliza para Firefox, que hace que el campo se comporte como un campo de texto normal, eliminando las flechas.
+Edge and IE:
+
+En versiones antiguas de Edge y en Internet Explorer, el estilo puede no ser necesario o podría ser diferente, pero el código CSS general debe funcionar en la mayoría de los casos.
+Este enfoque debería funcionar en la mayoría de los navegadores modernos. Sin embargo, ten en cuenta que algunos navegadores antiguos podrían comportarse de manera diferente, así que siempre es una buena idea probar en los navegadores que tu audiencia utiliza.
+
+
+
+No compartas información confidencial. Los chats pueden ser revisados y usados para formar a nuestros modelos. Obtener más información
