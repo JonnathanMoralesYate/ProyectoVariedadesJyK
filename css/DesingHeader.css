@@ -78,3 +78,53 @@ img{
     color: white;
 
 }
+
+.estilo_jyk{
+    background-color: #013d69;
+    overflow: hidden;
+    align-items: center;
+}
+.animacion_nombre{
+    font-family: 'Arial', sans-serif;
+    font-size: 80px; /* Tamaño letra*/
+    font-weight: bold;
+    color: #fffdf9; /* Color letra  */
+    text-align: center;
+    text-shadow: 10px 10px 10px #f0f8ff; /* Color Sombra */
+    margin-top: 50px;
+    line-height: 1;
+    letter-spacing: 4;
+    font-style: italic; 
+}
+
+@media (min-width: 1200px) {
+    .animacion_nombre {
+        font-size: 3vw; /* Tamaño de fuente ajustado para pantallas grandes */
+        margin-top: 4vw; /* Ajusta el margen superior para pantallas grandes */
+        letter-spacing: 0.15em; /* Ajusta el espaciado entre letras para pantallas grandes */
+    }
+}
+
+/* Media query para pantallas medianas */
+@media (max-width: 992px) {
+    .animacion_nombre {
+        font-size: 4vw; /* Tamaño de fuente ajustado para pantallas medianas */
+        margin-top: 6vw; /* Ajusta el margen superior para pantallas medianas */
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    .animacion_nombre {
+        font-size: 6vw; /* Tamaño de fuente ajustado para pantallas pequeñas */
+        margin-top: 8vw; /* Ajusta el margen superior para pantallas pequeñas */
+    }
+}
+
+/* Media query para dispositivos muy pequeños (teléfonos móviles) */
+@media (max-width: 480px) {
+    .animacion_nombre {
+        font-size: 8vw; /* Tamaño de fuente ajustado para dispositivos muy pequeños */
+        margin-top: 10vw; /* Ajusta el margen superior para dispositivos muy pequeños */
+    }
+}
